@@ -10,6 +10,8 @@ class Style : public QObject
     QML_ELEMENT
 
 public:
-    Q_INVOKABLE void changeStyle(const QString& name);
+    Q_INVOKABLE QString currentStyle() const;
     Q_INVOKABLE QStringList supportedStyles() const;
+
+    Q_INVOKABLE void changeStyle(QString const& name);
 };
