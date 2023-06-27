@@ -25,8 +25,11 @@ PUBLIC
 )
 
 set(FLAPI_SOURCE
-    forward/api/MessageModel.cpp
-    forward/api/MessageModel.hpp
+    forward/api/MessageItemModel.cpp
+    forward/api/MessageItemModel.hpp
+
+    forward/api/ChatItemModel.cpp
+    forward/api/ChatItemModel.hpp
 )
 
 set(FLCLIENT_SOURCE 
